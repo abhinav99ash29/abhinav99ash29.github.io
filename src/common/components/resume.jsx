@@ -20,7 +20,7 @@ const Resume = (props) => {
             >   
                 <Grid container alignItems="center" spacing={2} direction="column" className="grid-container">
                     { Array(numPages).fill().map((element, index) => index + 1).map((index) => (
-                        <Grid item className="max-width-60rem">
+                        <Grid item className="max-width-60rem" key={index}>
                             <Paper className="description-paper">
                                 <Page pageNumber={index} />
                             </Paper>
