@@ -9,7 +9,7 @@ const About = (props) => {
         <MainContainer>
             <Grid container alignItems="center" spacing={2} direction="column" className="grid-container">
                 <Grid item>
-                    <Avatar alt="Abhinav's pic" src="../vendors/avatar.jpg" className="avatar-img" /> 
+                    <Avatar alt="Abhinav's pic" src="src/common/vendors/avatar.jpg" className="avatar-img" /> 
                 </Grid>
                 <Grid item className="max-width-45rem">
                     <Paper className="description-paper">

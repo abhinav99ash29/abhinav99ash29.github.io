@@ -15,7 +15,7 @@ const Resume = (props) => {
         <MainContainer>
             <Grid container alignItems="center" direction="column">
             <Document
-            file={path.resolve(__dirname, '../vendors/resume.pdf')}
+            file={path.resolve(__dirname, 'src/common/vendors/resume.pdf')}
             onLoadSuccess={onDoeumentLoadSuccess}
             >   
                 <Grid container alignItems="center" spacing={2} direction="column" className="grid-container">
