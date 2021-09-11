@@ -11,15 +11,11 @@ const Resume = (props) => {
         setNumPages(numPages);
     };
 
-    useEffect(() => {
-        console.log('#### pdf path: ', path.resolve(__dirname, './public/resume.pdf')); //reset the resume pdf link
-    }, []);
-
     return (
         <MainContainer>
             <Grid container alignItems="center" direction="column">
             <Document
-            file={path.resolve(__dirname, '../vendors/resume.pdf')}
+            file={path.resolve(__dirname, 'src/common/vendors/resume.pdf')}
             onLoadSuccess={onDoeumentLoadSuccess}
             >   
                 <Grid container alignItems="center" spacing={2} direction="column" className="grid-container">
