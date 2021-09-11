@@ -17,12 +17,11 @@ module.exports = merge(common, {
   },
   plugins: [
   new webpack.HotModuleReplacementPlugin(),
-  new HtmlWebpackPlugin(),
-  // new CopyPlugin([
-  //   { 
-  //     from: path.resolve(__dirname, "index.html"), 
-  //     to: path.resolve(__dirname, "build/")
-  //   }
-  // ]),
+  new CopyPlugin([
+    { 
+      from: path.resolve(__dirname, "index.html"), 
+      to: path.resolve(__dirname, "build/")
+    }
+  ]),
 ]
 });
