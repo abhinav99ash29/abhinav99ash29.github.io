@@ -20,7 +20,8 @@ module.exports = {
   resolve: { extensions: ["*", ".js", ".jsx"] },
   externals: {
     'react': "React",
-    'react-dom': "ReactDOM"
+    'react-dom': "ReactDOM",
+    'styled-components': 'styled-components'
   },
   output: {
     path: path.join(__dirname, "/build"),
