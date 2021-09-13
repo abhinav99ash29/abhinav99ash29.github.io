@@ -4,8 +4,6 @@ import Landing from "./common/components/landing";
 import { hot } from "react-hot-loader";
 import { createTheme } from "@material-ui/core";
 import { ThemeProvider } from "styled-components";
-import { useState } from "react";
-import { useEffect } from "react";
 
 const App = (props) => {
 

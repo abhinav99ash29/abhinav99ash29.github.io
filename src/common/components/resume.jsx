@@ -15,12 +15,12 @@ const Resume = (props) => {
         <MainContainer>
             <Grid container alignItems="center" direction="column">
             <Document
-            file={path.resolve(__dirname, '../vendors/resume.pdf')}
+            file={path.resolve(__dirname, 'src/common/vendors/resume.pdf')}
             onLoadSuccess={onDoeumentLoadSuccess}
             >   
                 <Grid container alignItems="center" spacing={2} direction="column" className="grid-container">
                     { Array(numPages).fill().map((element, index) => index + 1).map((index) => (
-                        <Grid item className="max-width-60rem">
+                        <Grid item className="max-width-60rem" key={index}>
                             <Paper className="description-paper">
                                 <Page pageNumber={index} />
                             </Paper>
