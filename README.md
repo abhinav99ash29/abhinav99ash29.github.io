@@ -6,7 +6,7 @@ Features
   - Built without create-react-app template command
   - No server required pure client side app
   - Contains 404 logic to easily redirect to the requested path without giving 404
-  - As opposed to other client side app you can direct reach to any page instead of starting out from the home page
+  - As opposed to other client side apps you can directly reach to any page instead of starting out from the home page
   - Minimal code
 
 Pending
